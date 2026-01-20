@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS System Dashboard</title>
+    <link rel="stylesheet" href="../jonimardaleishvili/assets/styles.css">
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header Section (Semantic <header>) -->
+    <header class="pos-header">
+        <a href="/" class="logo-text">
+            <span class="text-blue">P</span><span class="text-green">OS</span>
+        </a>
+
+        <div class="search-container">
+            <div class="search-wrapper">
+                <input type="text" placeholder="Search product or any order..." class="search-input">
+            </div>
+        </div>
+
+        <div class="header-actions">
+            <div class="date-time">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <time datetime="2002-10-18T10:00">October 18th 2002, 10:00AM</time>
+            </div>
+            
+            <button class="add-table-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span class="btn-text">Add Table</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Area (Semantic <main>) -->
+    <main class="content-area">
+        <section class="food-grid">
+            
+            <!-- Card 1 (Semantic <article>) -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken1.jpg" alt="Chicken Wings">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">Chicken Wings</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-n">N</span>
+                            <span class="spicy">🌶️🌶️</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken2.jpg" alt="French Fries">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">French Fries</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-g">G</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken3.jpg" alt="Summer Salad">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">Summer Salad</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-n">N</span>
+                            <span class="spicy">🌶️</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken4.jpg" alt="Summer Salad 2">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">Summer Salad</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-zero">0%</span>
+                            <span class="spicy">🌶️</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken5.jpg" alt="Bread">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">Chicken Wings</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-g">G</span>
+                            <span class="spicy">🌶️🌶️</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken6.jpg" alt="Bread 2">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">Chicken Wings</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-g">G</span>
+                            <span class="spicy">🌶️🌶️</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 7 -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken7.jpg" alt="Snack">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">Chicken Wings</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-g">G</span>
+                            <span class="spicy">🌶️🌶️</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 8 -->
+            <article class="food-card">
+                <figure class="card-image-container">
+                    <img src="../jonimardaleishvili/assets/img/chicken8.jpg" alt="Snack 2">
+                </figure>
+                <div class="card-info">
+                    <h3 class="food-title">Chicken Wings</h3>
+                    <div class="card-footer">
+                        <span class="category-label">Category:</span>
+                        <div class="status-badges">
+                            <span class="badge badge-g">G</span>
+                            <span class="spicy">🌶️🌶️</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Footer Navigation (Semantic <footer> and <nav>) -->
+    <footer class="pos-footer">
+        <nav class="category-nav">
+            <button class="tab-btn active">STARTER</button>
+            <button class="tab-btn">MAIN COURSE</button>
+            <button class="tab-btn">DRINKS</button>
+            <button class="tab-btn">DESSERTS</button>
+        </nav>
+    </footer>
+
+</body>
+</html>
